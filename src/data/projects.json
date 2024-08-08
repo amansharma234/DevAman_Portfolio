@@ -1,0 +1,27 @@
+[
+    {
+      "image": "projects/project01.jpg",
+      "altText": "Anime 80s",
+      "title": "Anime 80s - An E-commerce store",
+      "description": "Designed a sleek and intuitive interface for creation of Print on Demand T-shirts and for users to browse art pieces and purchase them securely online.",
+      "liveLink": "Live Link",
+      "codeLink": "Code"
+    },
+    {
+      "image": "projects/project02.jpg",
+      "altText": "Route ED",
+      "title": "Route ED - Your Roadmap to Success",
+      "description": "An Educational Platform that provides personalized career roadmaps and offers AI oriented Career counselling, with the help of EDAcad-GPT.",
+      "liveLink": "Live Link",
+      "codeLink": "Code"
+    },
+    {
+      "image": "projects/project03.jpg",
+      "altText": "Testify ADHD",
+      "title": "Testify ADHD - Platform to check your ADHD Score",
+      "description": "A platform where you can answer few questions regarding traits and symptoms of ADHD and get a score which will tell you about severity of your condition.",
+      "liveLink": "Live Link",
+      "codeLink": "Code"
+    }
+  ]
+  

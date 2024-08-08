@@ -1,0 +1,187 @@
+@import '../../vars.css';
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.imageContianer{
+    width: 50%;
+}
+
+.info{
+    margin-left: 2rem;
+}
+
+.name{
+    font-size: 4rem;
+    font-weight: 750;
+}
+
+.callToAction{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.callToActionBtn{
+    height: 3rem;
+    width: 7em;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    font-size:medium;
+    font-weight: 600;
+    background-color: yellow;
+    margin-left:1.5rem ;
+}
+
+.description{
+    width: 65%;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+.colorBtnContainer{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2.2rem;
+}
+
+.colorBtnContainer2{
+    display: flex;
+    gap: 2.2rem;
+}
+
+.colorBtn1, .colorBtn2, .colorBtn3, .colorBtn4{
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    border-radius: 100px;
+    font-size:medium;
+    font-weight: 600;
+}
+
+.colorBtn1{
+    background-color: var(--color-one);
+}
+
+.colorBtn2{
+    background-color: var(--color-two);
+}
+.colorBtn3{
+    background-color: var(--color-three);
+}
+.colorBtn4{
+    background-color: var(--color-four);
+}
+
+.banner{
+    height: 5rem;
+    width: 100%;
+    background-color:var(--color-one);
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    gap: 14rem;
+}
+
+.bannerItems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bannerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.bannerItems a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width:830px) {
+    .container{
+        flex-direction: column;
+        margin-left:0.5rem;
+        margin-top: 3rem;
+    }
+
+    .imageContianer{
+        width: 100%;
+    }
+    .heroImage{
+        height: 16rem;
+    }
+
+    .info{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .name{
+        font-size: 2.5rem;
+        font-weight: 750;
+    }
+
+    .subtitle{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .callToActionBtn{
+        height: 2rem;
+        width: 6rem;
+        margin-left:1.5rem ;
+    }
+    
+    .description{
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+
+    .colorBtnContainer{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .banner{
+        height: 5rem;
+        width: 100%;
+        background-color:var(--color-one);
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+        gap: 2rem;
+    }
+
+    .bannerItems{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bannerTitle a{
+        display: none;
+    }
+    
+
+    
+
+}
+
+
+

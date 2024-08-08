@@ -1,0 +1,99 @@
+@import '../../vars.css';
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-top:1rem;
+}
+
+.logo{
+    height: 5rem;
+    margin-left:2.5rem;
+}
+
+.title{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.title h1{ 
+    font-size: xx-large;
+    margin-left:1rem;
+    width: 50%;
+}
+
+.title h4{
+    margin-top: 5.5px;
+    width: 100%;
+    font-size: larger;
+    font-weight: 200;
+}
+
+.navbtn{
+    display: none;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.navlines{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.navItem{
+    list-style: none;
+    font-size: large;
+    font-weight: 100;
+}
+
+.navItem a{    
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:830px) {
+   
+    .logo{
+        height: 4rem;
+        margin-left: 0.5rem;
+    }
+
+    .title{
+        flex-direction: column;
+    }
+
+    .title h1{  
+        font-size: x-large;     
+        margin-left: 0.5rem;  
+        width: 100%;
+    }
+
+    .title h4{
+        font-size: large;
+        margin-left: 0.5rem;
+        font-weight: 100;
+    }
+
+    .navItems{
+        display: none;
+    }
+
+    .navbtn{
+        display: block;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 2.5rem;
+    }  
+
+
+
+}

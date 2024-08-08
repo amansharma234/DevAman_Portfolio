@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Frontend",
+      "skills": [
+        { "name": "HTML", "image": "skills/html.png" },
+        { "name": "CSS", "image": "skills/css.png" },
+        { "name": "JavaScript", "image": "skills/javaScript.png" },
+        { "name": "React", "image": "skills/react.png" }
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        { "name": "Node Js", "image": "skills/nodeJs.png" },
+        { "name": "Express Js", "image": "skills/expressJs.png" }
+      ]
+    },
+    {
+      "title": "Database",
+      "skills": [
+        { "name": "MySQL", "image": "skills/mySql.png" },
+        { "name": "MongoDB", "image": "skills/mongoDb.png" }
+      ]
+    },
+    {
+      "title": "Other",
+      "skills": [
+        { "name": "C++", "image": "skills/c++.png" },
+        { "name": "Figma", "image": "skills/figma.png" },
+        { "name": "Git", "image": "skills/git.png" },
+        { "name": "Github", "image": "skills/github.png" }
+      ]
+    }
+  ]
+  

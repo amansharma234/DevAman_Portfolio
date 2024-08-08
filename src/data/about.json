@@ -1,0 +1,33 @@
+[
+    {
+      "image": "about/me.png",
+      "altText": "myself",
+      "title": "My Introduction",
+      "description": "Designed a sleek and intuitive interface for creation of Print on Demand T-shirts and for users to browse art pieces and purchase them securely online."
+    },
+
+
+    {
+      "image": "about/sketching.png",
+      "altText": "sketching",
+      "title": "Sketching and Art",
+      "description": "Art is something which runs through my emotions. It will be not fair to call it a hobby. I draw portraits, sketches, landscapes and anything that catches my eye. Fun Fact: I doodle better than I draw."
+    },
+
+
+    {
+      "image": "about/music.png",
+      "altText": "music",
+      "title": "Music",
+      "description": "Music is my coffee #fuel, it helps me reduce my stress, makes me feel lively. I majorly listen to DHH tracks and old classical songs. I more likely to listen to tracks that hold some real life scenarios."
+    },
+
+
+    {
+      "image": "about/philosophy.png",
+      "altText": "philosophy",
+      "title": "Philosophy",
+      "description": "Philosophy is my guiding light #insight, helping me navigate life's complexities and deepen my understanding of existence. I'm drawn to existentialist and stoic teachings, finding solace and wisdom in their perspectives on human nature and resilience."
+    }
+  ]
+  
